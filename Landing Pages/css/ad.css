@@ -1,0 +1,46 @@
+section#ads {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/parallax/call-to-action.jpg);
+    padding: 25px 0;
+}
+
+section#ads p:first-child {
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 024px;
+    padding-bottom: 0px;
+}
+
+section#ads p:first-child span {
+    color: var(--amarillo);
+}
+
+section#ads p:nth-child(2) {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+section#ads p:nth-child(2) span {
+    margin-top: 5px;
+    color: var(--azul);
+}
+
+section#ads a {
+    background-color: var(--azul);
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    display: table;
+}
